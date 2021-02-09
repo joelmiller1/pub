@@ -33,5 +33,11 @@ echo $add2path >> ~/.bashrc
 
 # download run script
 cd ../CSCE692Project/benchmarks/go
-curl -sSL -O -J https://raw.githubusercontent.com/joelmiller1/pub/main/files/run.sh
+curl -sSL -O -J https://raw.githubusercontent.com/joelmiller1/pub/main/files/run_go.sh
+
+cd ../anagram
+curl -sSL -O -J https://raw.githubusercontent.com/joelmiller1/pub/main/files/run_anagram.sh
+
+cd ../compress95
+curl -sSL -O -J https://raw.githubusercontent.com/joelmiller1/pub/main/files/run_compress.sh
 
