@@ -3,11 +3,13 @@
 # to run, enter the following command into terminal:
 # curl -sSL https://raw.githubusercontent.com/joelmiller1/pub/main/install.sh | bash
 #
-# this is potentially dangerous, so know the implications of it:
+# curl to bash is potentially dangerous, so know you are trusting me with your computer:
 # https://pi-hole.net/2016/07/25/curling-and-piping-to-bash#page-content
+#
+# Fide sed vide
 echo "making temp directory..."
-mkdir csce692_lab2
-cd csce692_lab2
+mkdir lab2
+cd lab2
 
 # download the things
 echo "downloading files to be extracted..."
