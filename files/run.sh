@@ -36,6 +36,7 @@ go_outorder 1 1 1 1 "false" &
 go_outorder 2 2 1 1 "false" &
 go_outorder 4 3 2 2 "false" &
 go_outorder 8 6 3 2 "false"
+mv *.txt /outorder
 
 #run pred
 mkdir pred
@@ -47,4 +48,5 @@ go_pred "false" "taken" &
 go_pred "false" "nottaken" &
 go_pred "false" "2lev" &
 go_pred "false" "perfect"
+mv *.txt /pred
 
