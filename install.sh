@@ -11,8 +11,8 @@ cd csce692_lab2
 
 # download the things
 echo "downloading files to be extracted..."
-curl -sSL https://github.com/joelmiller1/pub/blob/main/files/CSCE692Project.tgz?raw=true
-curl -sSL https://github.com/joelmiller1/pub/blob/main/files/simplesim-3v0e.tgz?raw=true
+curl -sSL https://github.com/joelmiller1/pub/blob/main/files/CSCE692Project.tgz
+curl -sSL https://github.com/joelmiller1/pub/blob/main/files/simplesim-3v0e.tgz
 
 # extract the things
 echo "extracting files..."
