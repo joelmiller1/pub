@@ -28,4 +28,8 @@ make sim-tests
 add2path="export PATH=\$PATH:"
 add2path+=$(pwd)
 echo $add2path >> ~/.bashrc
-echo "finished..."
+
+# download run script
+cd ../CSCE692Project/benchmarks/go
+curl -sSL -O -J https://raw.githubusercontent.com/joelmiller1/pub/main/files/run.sh
+./run.sh
