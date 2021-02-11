@@ -1,7 +1,7 @@
 #!/bin/bash
 # test install script
 # to run, enter the following command into terminal:
-# curl -sSL https://raw.githubusercontent.com/joelmiller1/pub/main/install.sh | bash
+# curl -sSL https://raw.githubusercontent.com/joelmiller1/pub/main/install_with_dependencies.sh | bash
 #
 # curl to bash is potentially dangerous, so know you are trusting me with your computer:
 # https://pi-hole.net/2016/07/25/curling-and-piping-to-bash#page-content
